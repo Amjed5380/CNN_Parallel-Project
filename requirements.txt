@@ -1,9 +1,7 @@
-# Weapon Detection using YOLOv8
-# Python 3.10+ recommended
-#
+## Weapon Detection using YOLOv8
+
 # Install:  pip install -r requirements.txt
 # Note: for GPU training, install the CUDA build of PyTorch first
-#       (see https://pytorch.org/get-started/locally/), then run the line above.
 
 # Object detection (YOLOv8) - also installs torch, torchvision, opencv-python
 ultralytics>=8.3.0
@@ -25,6 +23,3 @@ pyyaml>=6.0
 matplotlib>=3.7.0
 pillow>=10.0.0
 
-# Running the notebook locally (not needed in Google Colab)
-ipython>=8.0.0
-jupyter>=1.0.0
