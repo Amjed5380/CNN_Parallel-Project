@@ -25,7 +25,7 @@ The work is arranged in the order the project is carried out:
 
 | No. | Team member | Responsibility |
 |---:|---|---|
-| 1 | **Amjed** | Dataset collection and organization |
+| 1 | Amjed | Dataset collection and organization |
 | 2 | Jisha | Image annotation and dataset preparation |
 | 3 | Gouri | Data preprocessing and augmentation |
 | 4 | Shahin | YOLO model configuration and training |
@@ -34,7 +34,6 @@ The work is arranged in the order the project is carried out:
 | 7 | Meenakshi | Image and video detection implementation |
 | 8 | Adil | Results analysis and project documentation |
 
-Each member is responsible for their primary task and should coordinate with other members where tasks overlap. All members should make meaningful contributions to the shared repository through commits, pull requests, reviews, code, tests, or documented deliverables.
 
 ## 4. Technologies Used
 
@@ -46,33 +45,7 @@ Each member is responsible for their primary task and should coordinate with oth
 - Google Colab or a local Python environment
 - Git and GitHub
 
-## 5. Suggested Repository Structure
-
-Adjust this structure to match the files actually present in the repository.
-
-```text
-WeaponDetection/
-├── dataset/
-│   ├── images/
-│   │   ├── train/
-│   │   ├── val/
-│   │   └── test/
-│   └── labels/
-│       ├── train/
-│       ├── val/
-│       └── test/
-├── notebooks/
-├── src/
-│   ├── train.py
-│   ├── validate.py
-│   └── predict.py
-├── weights/              # Optional: trained model weights
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-## 6. Installation
+## 5. Installation
 
 Clone the repository:
 
@@ -107,7 +80,7 @@ pip install -r requirements.txt
 
 Make sure `requirements.txt` lists the packages and versions actually used by the project.
 
-## 7. Dataset Preparation
+## 6. Dataset Preparation
 
 1. Identify and record the dataset source, licence, and access conditions.
 2. Organize images and their corresponding annotation files.
@@ -117,7 +90,7 @@ Make sure `requirements.txt` lists the packages and versions actually used by th
 
 Only publish datasets that are permitted to be redistributed. If the dataset cannot be shared, document how authorized users can obtain it.
 
-## 8. Model Training and Prediction
+## 7. Model Training and Prediction
 
 The exact commands depend on the YOLO version and scripts used in this repository. Add the tested commands here once the implementation is confirmed.
 
@@ -129,7 +102,7 @@ The intended stages are:
 - Run inference on sample images and videos.
 - Save representative outputs for the results section.
 
-## 9. Model Evaluation
+## 8. Model Evaluation
 
 Where supported by the selected framework, report:
 
@@ -140,29 +113,11 @@ Where supported by the selected framework, report:
 - Confusion matrix
 - Inference speed, including the hardware used
 
-Include actual measured values, model configuration, dataset split, and hardware details. Do not report estimated or unverified scores.
-
-## 10. Results and Screenshots
-
-Add sample prediction images or video frames in this section after testing. Include the model version, example outputs, evaluation results, and known limitations.
-
-## 11. GitHub Contribution Guidelines
-
-1. Work on the responsibility assigned to you and coordinate with the team.
-2. Use clear commit messages describing each change.
-3. Use a separate branch for substantial changes.
-4. Open a pull request and request review before merging into the main branch.
-5. Update this README when setup instructions, scripts, or results change.
-6. Never commit passwords, API keys, private data, or files that should not be redistributed.
-
-## 12. Limitations and Responsible Use
+## 11. Limitations and Responsible Use
 
 This project is an educational computer-vision demonstration. Model predictions can be incorrect and may vary with image quality, lighting, camera angle, and dataset coverage. The system should not be treated as a reliable basis for real-world enforcement or other high-stakes decisions. Use images and videos in ways that respect privacy, consent, and applicable laws.
 
-## 13. Acknowledgements
+## 12. Acknowledgements
 
 We thank all team members for their contributions to dataset preparation, model development, testing, evaluation, and documentation.
 
-## 14. License
-
-Add the licence selected for this repository. If no licence has been chosen, clarify the reuse terms before publishing the project.
